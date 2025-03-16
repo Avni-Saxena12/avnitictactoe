@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+#maze {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+    margin: 20px auto;
+    width: fit-content;
+    background: black;
+    padding: 5px;
+}
+.cell{
+    width: 40px;
+    height: 40px;
+    background: white;
+}
+.wall {
+    background: gray;
+}
+.player {
+    background: blue;
+}
+.exit {
+    background: rgb(49, 233, 49);
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
